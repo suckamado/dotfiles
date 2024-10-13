@@ -1,0 +1,30 @@
+#####################################
+############# ALIASRC ###############
+#####################################
+
+# XBPS
+
+alias xi='sudo xbps-install'
+alias xs='sudo xbps-install -S'
+alias xr='sudo xbps-remove -Ro'
+alias xq='xbps-query -Rs'
+alias xu='sudo xbps-install -Su'
+alias xcache='sudo rm -rf /var/cache/xbps/*'
+
+# Other SOFTWARE
+
+alias ll='lsd -l'
+alias la='lsd -la'
+
+alias netmon='doas /usr/bin/iftop -i wlp3s0'
+alias patchy='patch -p1 <'
+alias cat='bat'
+alias yt='ytfzf --pages=2 -t -l'
+alias rmm='shred -n 5 -v -u -z'
+alias fetch='fastfetch'
+alias dkernel='sudo vkpurge rm all'
+
+# FILES
+
+alias aliasrc="vim $HOME/.aliasrc"
+alias bashrc="vim $HOME/.bashrc"
